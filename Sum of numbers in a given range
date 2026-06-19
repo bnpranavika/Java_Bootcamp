@@ -1,0 +1,8 @@
+class RangeSum {
+    public static void main(String[] args) {
+        int start = 5;
+        int end = 10;
+        int sum = (end * (end + 1) / 2) - ((start - 1) * (start) / 2);
+        System.out.println(sum);
+    }
+}
