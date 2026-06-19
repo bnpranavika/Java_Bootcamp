@@ -1,0 +1,19 @@
+nums=[0,0,0,1,0,1,1,2,2,2]
+start=0
+mid=0
+end=len(nums)-1
+while mid<=end:
+  if nums[mid]==0:
+    temp=nums[start]
+    nums[start]=nums[mid]
+    nums[mid]=temp
+    start+=1
+    mid+=1
+  elif nums[mid]==2:
+    temp=nums[end]
+    nums[end]=nums[mid]
+    nums[mid]=temp
+    end-1=1
+  else:
+    mid+=1
+print(num)
